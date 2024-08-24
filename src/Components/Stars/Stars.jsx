@@ -212,7 +212,7 @@ const Stars = () => {
             <Navbar />
             <div className='cont-real'>
                 <div className="video cont-video"  >
-                    <video src='Public/starsvid.mp4' autoPlay muted playsInline loop>Unable to Play video</video>
+                    <video src='/starsvid.mp4' autoPlay muted playsInline loop>Unable to Play video</video>
                     <div className="sc-hero" data-aos='fade-up'>
                         <h1 className='video-h'>Stars</h1>
                         <p>Witness the brilliance of the stars, each one a luminous beacon in the vast tapestry of the universe. The night sky, a celestial canvas, inspires awe and wonder in every observer.</p>

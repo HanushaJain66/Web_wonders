@@ -123,19 +123,20 @@ const Planets = () => {
             const id = parseInt(event.currentTarget.dataset.id);
             const selectedPlanet = planets.find(planet => planet.id === id);
             setPlanetDetails(selectedPlanet);
-            const imageUrl = `../../../public/Planet-images/planet-${id}.jpg`;
-            sun.style.backgroundImage = `url("${imageUrl}")`;
+
+            // Remove all existing planet classes from the sun element
+            sun.classList.remove(...sun.classList);
+            sun.classList.add("planet", "sun", selectedPlanet.className);
+
             sun.style.boxShadow = selectedPlanet.box_shadow;
 
             if (id === 6) {
-
                 document.querySelector(".sun-ring-container").style.display = "block";
             } else {
                 document.querySelector(".sun-ring-container").style.display = "none";
             }
 
             window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top on click
-
         };
 
         cards.forEach(card => {

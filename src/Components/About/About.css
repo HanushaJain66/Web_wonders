@@ -131,22 +131,21 @@ main .about-us .feature-background {
 }
 
 main .about-us .feature-bg1 {
-    background: url('se1.jpg') no-repeat center;
+    background: url('../../../public/se1.jpg') no-repeat center;
     background-size: cover;
 }
-
 main .about-us .feature-bg2 {
-    background: url('sr.jpg') no-repeat center;
+    background: url('../../../public/sr.jpg') no-repeat center;
     background-size: cover;
 }
 
 main .about-us .feature-bg3 {
-    background: url('si.jpg') no-repeat center;
+    background: url('../../../public/si.jpg') no-repeat center;
     background-size: cover;
 }
 
 main .about-us .feature-bg4 {
-    background: url('sed.jpg') no-repeat center;
+    background: url('../../../public/sed.jpg') no-repeat center;
     background-size: contain;
     height: 500px;
     width: 95vw;

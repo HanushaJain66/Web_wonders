@@ -1,6 +1,6 @@
 .star-real {
     background-color: #121212;
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
     /* margin-top: 63px; */
 }
@@ -63,29 +63,29 @@
 
 .star-heads h1 {
     font-size: 32px;
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 10px;
     color: white;
 }
 
 .star-heads p {
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
 }
 
 .star-details .star-detail {
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 10px;
 }
 
 .star-details h2 {
     color: white;
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
 }
 
 .star-details p {
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.18rem;
 }
 
@@ -208,7 +208,7 @@
     width: 100%;
     display: block;
     background:
-        url('dark-denim.png') no-repeat center center,
+        url('../../../public/dark-denim.png') no-repeat center center,
         linear-gradient(to bottom, #1a1a1a, #400000, #b22222);
     background-size: auto, cover;
     color: white;
@@ -265,7 +265,7 @@
 }
 
 .star-data p {
-   font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     line-height: 2rem;
     font-size: 1rem;
     margin: 3rem 0rem;
@@ -412,4 +412,9 @@
 
 .data-s {
     text-decoration: underline;
+}
+@media(max-width:576px){
+    video{
+        margin-top: 50px;
+    }
 }

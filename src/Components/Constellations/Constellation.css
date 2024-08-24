@@ -17,7 +17,7 @@
 
 /* Hero section */
 .cont-hero {
-    background: url('mainimg.jpg');
+    background: url('../../../public/mainimg.jpg');
     background-size: cover;
     color: #ffffff;
     padding: 5rem 3rem;
@@ -200,9 +200,7 @@
     .cont-main h1 {
         font-size: 1.5rem;
     }
-    .cont-know{
-        /* padding: 0; */
-    }
+   
     .cont-main{
         padding: 0;
         padding-bottom: 10px;
@@ -211,9 +209,7 @@
     .cont-temp{
         padding: 0;
     }
-    .cont-real{
-        /* margin-bottom: 10px; */
-    }
+ 
     .learn-cont-btn{
         margin-bottom: 0;
         padding: 0;

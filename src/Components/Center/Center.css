@@ -22,7 +22,12 @@
 .sc-hero p {
     font-size: 1.0em;
 }
-
+@media(max-width:576px)
+{
+    .sc-hero p{
+        display: none;
+    }
+}
 @media(max-width:450px) {
     .sc-hero h1 {
         font-size: 1.5em;
@@ -72,7 +77,7 @@ video {
     justify-items: center;
     background:
         linear-gradient(65.99deg, rgba(0, 0, 0, 0.7) 0%, transparent 99.04%),
-        url('CenterImage/nasa.jpg') center no-repeat;
+        url('../../../public/CenterImage/nasa.jpg') center no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 90vh;
@@ -84,7 +89,7 @@ video {
     justify-items: center;
     background:
         linear-gradient(65.99deg, rgba(0, 0, 0, 0.7) 0%, transparent 99.04%),
-        url('CenterImage/spacex.webp') center no-repeat;
+        url('../../../public/CenterImage/spacex.webp') center no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 90vh;
@@ -96,7 +101,7 @@ video {
     justify-items: center;
     background:
         linear-gradient(65.99deg, rgba(0, 0, 0, 0.7) 0%, transparent 99.04%),
-        url('CenterImage/isro.webp') center no-repeat;
+        url('../../../public/CenterImage/isro.webp') center no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 90vh;
@@ -251,7 +256,7 @@ video {
 }
 
 .sc-img-child {
-    background: url("CenterImage/space1.jpg") center no-repeat;
+    background: url("../../../public/CenterImage/space1.jpg") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -329,7 +334,7 @@ video {
 }
 
 .ksc-img {
-    background: url("CenterImage/ksc.webp") center no-repeat;
+    background: url("../../../public/CenterImage/ksc.webp") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -337,7 +342,7 @@ video {
 }
 
 .jsc-img {
-    background: url("CenterImage/jsc.jpg") center no-repeat;
+    background: url("../../../public/CenterImage/jsc.jpg") center no-repeat;
     position: relative;
     width: 100%;
     height: 40vh;
@@ -345,7 +350,7 @@ video {
 }
 
 .jpl-img {
-    background: url("CenterImage/jpl.jpg") center no-repeat;
+    background: url("../../../public/CenterImage/jpl.jpg") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -354,7 +359,7 @@ video {
 
 
 .spacex-img-child {
-    background: url("CenterImage/space2.jpg") center no-repeat;
+    background: url("../../../public/CenterImage/space2.jpg") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -362,7 +367,7 @@ video {
 }
 
 .isro-img-child {
-    background: url("CenterImage/space3.jpg") center no-repeat;
+    background: url("../../../public/CenterImage/space3.jpg") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -370,7 +375,7 @@ video {
 }
 
 .falcon-img {
-    background: url("CenterImage/falcon.jpeg") center no-repeat;
+    background: url("../../../public/CenterImage/falcon.jpeg") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -378,7 +383,7 @@ video {
 }
 
 .dragon-img {
-    background: url("CenterImage/dragon.webp") center no-repeat;
+    background: url("../../../public/CenterImage/dragon.webp") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -386,7 +391,7 @@ video {
 }
 
 .starship-img {
-    background: url("CenterImage/starship.webp") center no-repeat;
+    background: url("../../../public/CenterImage/starship.webp") center no-repeat;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -394,7 +399,7 @@ video {
 }
 
 .chandrayaan-img {
-    background: url("CenterImage/chandrayaan.jpg") center no-repeat;
+    background: url("../../../public/CenterImage/chandrayaan.jpg") center no-repeat;
     position: relative;
     width: 93%;
     background-size: contain;
@@ -402,7 +407,7 @@ video {
 }
 
 .mangalyaan-img {
-    background: url("CenterImage/Mangalyaan.jpeg") center no-repeat;
+    background: url("../../../public/CenterImage/Mangalyaan.jpeg") center no-repeat;
     position: relative;
     width: 93%;
     background-size: contain;
@@ -410,7 +415,7 @@ video {
 }
 
 .aditya-img {
-    background: url("CenterImage/adithya.webp") center no-repeat;
+    background: url("../../../public/CenterImage/adithya.webp") center no-repeat;
     position: relative;
     width: 93%;
     background-size: contain;
@@ -481,7 +486,7 @@ video {
     .chandrayaan-img,
     .aditya-img,
     .mangalyaan-img {
-        background: url("CenterImage/space1.jpg") center no-repeat;
+        background: url("../../../public/CenterImage/space1.jpg") center no-repeat;
         background-size: cover;
         height: inherit;
         transform: scale(1);
@@ -494,57 +499,57 @@ video {
     }
 
     .ksc-img {
-        background: url("CenterImage/ksc.webp") center no-repeat;
+        background: url("../../../public/CenterImage/ksc.webp") center no-repeat;
         background-size: cover;
     }
 
     .spacex-img-child {
-        background: url("CenterImage/space2.jpg") center no-repeat;
+        background: url("../../../public/CenterImage/space2.jpg") center no-repeat;
         background-size: cover;
     }
 
     .isro-img-child {
-        background: url("CenterImage/space3.jpg") center no-repeat;
+        background: url("../../../public/CenterImage/space3.jpg") center no-repeat;
         background-size: cover;
     }
 
     .jsc-img {
-        background: url("CenterImage/jsc.jpg") center no-repeat;
+        background: url("../../../public/CenterImage/jsc.jpg") center no-repeat;
         background-size: cover;
     }
 
     .jpl-img {
-        background: url("CenterImage/jpl.jpg") center no-repeat;
+        background: url("../../../public/CenterImage/jpl.jpg") center no-repeat;
         background-size: cover;
     }
 
     .falcon-img {
-        background: url("CenterImage/falcon.jpeg") center no-repeat;
+        background: url("../../../public/CenterImage/falcon.jpeg") center no-repeat;
         background-size: cover;
     }
 
     .dragon-img {
-        background: url("CenterImage/dragon.webp") center no-repeat;
+        background: url("../../../public/CenterImage/dragon.webp") center no-repeat;
         background-size: cover;
     }
 
     .starship-img {
-        background: url("CenterImage/starship.webp") center no-repeat;
+        background: url("../../../public/CenterImage/starship.webp") center no-repeat;
         background-size: cover;
     }
 
     .chandrayaan-img {
-        background: url("CenterImage/chandrayaan.jpg") center no-repeat;
+        background: url("../../../public/CenterImage/chandrayaan.jpg") center no-repeat;
         background-size: cover;
     }
 
     .mangalyaan-img {
-        background: url("CenterImage/Mangalyaan.jpeg") center no-repeat;
+        background: url("../../../public/CenterImage/Mangalyaan.jpeg") center no-repeat;
         background-size: cover;
     }
 
     .aditya-img {
-        background: url("CenterImage/adithya.webp") center no-repeat;
+        background: url("../../../public/CenterImage/adithya.webp") center no-repeat;
         background-size: cover;
     }
 

@@ -6,7 +6,7 @@ const Type_quiz = () => {
     return (
         <div className="video-quizcontainer">
             <div className="options-container">
-            <video src='../../../public/quiz-vi.mp4' autoPlay muted playsInline loop>
+            <video src='/quiz-vi.mp4' autoPlay muted playsInline loop>
             Unable to Play video</video>
                 <div className="all">
                     <h1 className="optionhead">Which Quiz Would You like to Play</h1>

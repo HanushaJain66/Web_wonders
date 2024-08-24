@@ -84,7 +84,7 @@ const Constellationquiz = () => {
 
     return (
         <div className="quiz-video-container">
-            <video src='../../../public/all-quiz.mp4' autoPlay muted playsInline loop className="background-video">
+            <video src='/all-quiz.mp4' autoPlay muted playsInline loop className="background-video">
                 Unable to Play video
             </video>
             <div className="quiz-container">
